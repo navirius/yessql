@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26215.3
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{0882456B-4A70-4895-A3AE-39B9D30A1B31}"
 EndProject
@@ -35,6 +35,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YesSql.Samples.Hi", "samples\YesSql.Samples.Hi\YesSql.Samples.Hi.csproj", "{2F005B29-D46A-441F-933D-CD25A0235074}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YesSql.Samples.FullText", "samples\YesSql.Samples.FullText\YesSql.Samples.FullText.csproj", "{DC85F009-6C82-4829-9764-E328C04F023F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YesSql.Samples.Web", "samples\YesSql.Samples.Web\YesSql.Samples.Web.csproj", "{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -208,6 +210,22 @@ Global
 		{DC85F009-6C82-4829-9764-E328C04F023F}.Release|x64.Build.0 = Release|Any CPU
 		{DC85F009-6C82-4829-9764-E328C04F023F}.Release|x86.ActiveCfg = Release|Any CPU
 		{DC85F009-6C82-4829-9764-E328C04F023F}.Release|x86.Build.0 = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|x64.Build.0 = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Debug|x86.Build.0 = Debug|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|x64.ActiveCfg = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|x64.Build.0 = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|x86.ActiveCfg = Release|Any CPU
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +241,7 @@ Global
 		{45940D28-3708-4EF1-8428-D85AD47D5594} = {0C294EC4-E6EF-4839-AD34-335C1A5112F9}
 		{2F005B29-D46A-441F-933D-CD25A0235074} = {0882456B-4A70-4895-A3AE-39B9D30A1B31}
 		{DC85F009-6C82-4829-9764-E328C04F023F} = {0882456B-4A70-4895-A3AE-39B9D30A1B31}
+		{F158F8FF-CA19-4C31-B17A-B28B5B6F9B3C} = {0882456B-4A70-4895-A3AE-39B9D30A1B31}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Store.vsmdi
