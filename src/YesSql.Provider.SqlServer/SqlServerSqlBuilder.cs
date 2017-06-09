@@ -18,17 +18,17 @@ namespace YesSql.Provider.SqlServer
                     dialect.Page(this, _skip, _count);
                 }
 
+                var tableName = _dialect.QuoteForTableName(_tablePrefix + _table);
                 var sb = new StringBuilder();
                 sb.Append(_clause).Append(" ").Append(_selector).Append(" from ");
 
-                if (_count !=0)
+                if (dialect.Name == "SqlServer 2008 R2" && _count != 0)
                 {
-                    var tableName = _dialect.QuoteForTableName(_tablePrefix + _table);
                     sb.Append($"(select *, row_number() over(order by Id) AS RowNum from {tableName}) As {tableName}");
                 }
                 else
                 {
-                    sb.Append(_dialect.QuoteForTableName(_tablePrefix + _table));
+                    sb.Append(tableName);
                 }
 
                 if (_join != null)
