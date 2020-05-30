@@ -9,7 +9,7 @@ namespace YesSql.Provider.PostgreSql
         public static IConfiguration RegisterPostgreSql(this IConfiguration configuration)
         {
             SqlDialectFactory.SqlDialects["npgsqlconnection"] = new PostgreSqlDialect();
-            CommandInterpreterFactory.CommandInterpreters["npgsqlconnection"] = d => new PostgreSqlCommandInterpreter(d);
+            CommandInterpreterFactory.CommandInterpreters["npgsqlconnection"] = d => new PostgreSqlCommandInterpreter(d, configuration.NamingPolicy);
 
             return configuration;
         }
